@@ -13,6 +13,7 @@
 		14E90574265B31CB008EC936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E90572265B31CB008EC936 /* Main.storyboard */; };
 		14E90576265B31CE008EC936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E90575265B31CE008EC936 /* Assets.xcassets */; };
 		14E90579265B31CE008EC936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E90577265B31CE008EC936 /* LaunchScreen.storyboard */; };
+		14E90581265B33E0008EC936 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E90580265B33E0008EC936 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		14E90575265B31CE008EC936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14E90578265B31CE008EC936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14E9057A265B31CE008EC936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E90580265B33E0008EC936 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				14E90575265B31CE008EC936 /* Assets.xcassets */,
 				14E90577265B31CE008EC936 /* LaunchScreen.storyboard */,
 				14E9057A265B31CE008EC936 /* Info.plist */,
+				14E90580265B33E0008EC936 /* Common.swift */,
 			);
 			path = iOS_Forecast;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E90581265B33E0008EC936 /* Common.swift in Sources */,
 				14E90571265B31CB008EC936 /* ViewController.swift in Sources */,
 				14E9056D265B31CB008EC936 /* AppDelegate.swift in Sources */,
 				14E9056F265B31CB008EC936 /* SceneDelegate.swift in Sources */,
