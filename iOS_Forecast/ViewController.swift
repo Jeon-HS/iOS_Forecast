@@ -40,6 +40,8 @@ extension ViewController: UITableViewDataSource{
         }
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ForecastTableViewCell", for: indexPath) as! ForecastTableViewCell
+        
+        return cell
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
