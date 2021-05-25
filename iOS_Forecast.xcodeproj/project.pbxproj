@@ -31,6 +31,7 @@
 		14E90583265B6D6C008EC936 /* SummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryTableViewCell.swift; sourceTree = "<group>"; };
 		14E90585265B6D89008EC936 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
 		14E90588265B716C008EC936 /* CurrentWeatherAPI.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CurrentWeatherAPI.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		14E90589265C8AF2008EC936 /* ForecastAPI.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ForecastAPI.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				14E90588265B716C008EC936 /* CurrentWeatherAPI.playground */,
+				14E90589265C8AF2008EC936 /* ForecastAPI.playground */,
 			);
 			path = API;
 			sourceTree = "<group>";
