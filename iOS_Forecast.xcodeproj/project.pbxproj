@@ -20,6 +20,7 @@
 		14E9058E265CBCE3008EC936 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9058D265CBCE3008EC936 /* CurrentWeather.swift */; };
 		14E90590265CBD1A008EC936 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9058F265CBD1A008EC936 /* Forecast.swift */; };
 		14E90593265CBD4F008EC936 /* WeatherDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E90592265CBD4F008EC936 /* WeatherDataSource.swift */; };
+		14E90596265CC305008EC936 /* Double+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E90595265CC305008EC936 /* Double+Formatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		14E9058D265CBCE3008EC936 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		14E9058F265CBD1A008EC936 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		14E90592265CBD4F008EC936 /* WeatherDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataSource.swift; sourceTree = "<group>"; };
+		14E90595265CC305008EC936 /* Double+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Formatter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		14E9056B265B31CB008EC936 /* iOS_Forecast */ = {
 			isa = PBXGroup;
 			children = (
+				14E90594265CC2E1008EC936 /* Formatter */,
 				14E90591265CBD3F008EC936 /* Data */,
 				14E9058A265CBCB0008EC936 /* Model */,
 				14E90587265B7147008EC936 /* API */,
@@ -122,6 +125,14 @@
 				14E90592265CBD4F008EC936 /* WeatherDataSource.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		14E90594265CC2E1008EC936 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				14E90595265CC305008EC936 /* Double+Formatter.swift */,
+			);
+			path = Formatter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 				14E9058C265CBCC2008EC936 /* ApiError.swift in Sources */,
 				14E90586265B6D89008EC936 /* ForecastTableViewCell.swift in Sources */,
 				14E9058E265CBCE3008EC936 /* CurrentWeather.swift in Sources */,
+				14E90596265CC305008EC936 /* Double+Formatter.swift in Sources */,
 				14E90581265B33E0008EC936 /* Common.swift in Sources */,
 				14E90590265CBD1A008EC936 /* Forecast.swift in Sources */,
 				14E90571265B31CB008EC936 /* ViewController.swift in Sources */,
